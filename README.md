@@ -2,9 +2,9 @@
 
 ## How do I install these formulae?
 
-`brew install filecoin-project/lotus/lotus`
+`brew install ianconsolata/lotus/lotus`
 
-Or `brew tap filecoin-project/lotus` and then `brew install lotus`.
+Or `brew tap ianconsolata/lotus` and then `brew install lotus`.
 
 ## Documentation
 
