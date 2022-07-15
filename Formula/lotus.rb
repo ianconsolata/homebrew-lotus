@@ -10,8 +10,8 @@ class Lotus < Formula
   depends_on :macos
 
   on_macos do
-    url "https://github.com/ianconsolata/homebrew-lotus/releases/download/v0.0.0/lotus_0.0.0_darwin-all.tar.gz"
-    sha256 "8b14fa74c2aa92e0cc70193905993051681e51818cec173f78bc3ae376d84d0b"
+    url "https://github.com/ianconsolata/lotus/releases/download/v0.0.0/lotus_0.0.0_darwin-all.tar.gz"
+    sha256 "ce8e7201df8058dbf7d6f62890d90c9a6103db6e2edd76f9f742144c93fe551f"
 
     def install
       bin.install "lotus"
