@@ -5,14 +5,14 @@
 class Lotus < Formula
   desc "A homebrew cask for installing filecoin-project/lotus on MacOS"
   homepage "https://filecoin.io"
-  version "20.20.45"
+  version "20.20.46"
   license "MIT"
   depends_on :macos
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/ianconsolata/lotus/releases/download/v20.20.45/lotus_20.20.45_darwin_arm64.tar.gz"
-      sha256 "cc6f1a476f753678156d4cafdd8b216c30d7725517b97665fb6b59b37956f973"
+      url "https://github.com/ianconsolata/lotus/releases/download/v20.20.46/lotus_20.20.46_darwin_arm64.tar.gz"
+      sha256 "d18fdc1e290db6f4d9668aa7892779f101da934a308b54107f09dc97be10d553"
 
       def install
         bin.install "lotus"
@@ -21,8 +21,8 @@ class Lotus < Formula
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ianconsolata/lotus/releases/download/v20.20.45/lotus_20.20.45_darwin_amd64.tar.gz"
-      sha256 "ae5d23a9149eac8541c6271900f0cf4ff50c448888d15f0377b445f7d997ae2a"
+      url "https://github.com/ianconsolata/lotus/releases/download/v20.20.46/lotus_20.20.46_darwin_amd64.tar.gz"
+      sha256 "11610eb8ea60bd9f1810c2ee55d9dd3241cc7eb6882baa2f8a030029de3a90c0"
 
       def install
         bin.install "lotus"
